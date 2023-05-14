@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="3" name="ChromeTest(failed)">
+    <parameter name="Browsers" value="Chrome"/>
+    <classes>
+      <class name="smarttech.nyc.testNGChallenges.CrossBrowserTesting">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="testCase"/>
+        </methods>
+      </class> <!-- smarttech.nyc.testNGChallenges.CrossBrowserTesting -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+  <test thread-count="3" name="EdgeTest(failed)">
+    <parameter name="Browsers" value="Edge"/>
+    <classes>
+      <class name="smarttech.nyc.testNGChallenges.CrossBrowserTesting">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="testCase"/>
+        </methods>
+      </class> <!-- smarttech.nyc.testNGChallenges.CrossBrowserTesting -->
+    </classes>
+  </test> <!-- EdgeTest(failed) -->
+  <test thread-count="3" name="FirefoxTest(failed)">
+    <parameter name="Browsers" value="Firefox"/>
+    <classes>
+      <class name="smarttech.nyc.testNGChallenges.CrossBrowserTesting">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="testCase"/>
+        </methods>
+      </class> <!-- smarttech.nyc.testNGChallenges.CrossBrowserTesting -->
+    </classes>
+  </test> <!-- FirefoxTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

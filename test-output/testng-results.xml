@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-14T16:38:32Z" name="Suite" finished-at="2023-05-14T16:38:44Z" duration-ms="12435">
+    <groups>
+    </groups>
+    <test started-at="2023-05-14T16:38:32Z" name="ChromeTest" finished-at="2023-05-14T16:38:35Z" duration-ms="3440">
+      <class name="smarttech.nyc.testNGChallenges.CrossBrowserTesting">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:smarttech.nyc.testNGChallenges.CrossBrowserTesting@6d167f58]" started-at="2023-05-14T16:38:32Z" name="setUp" finished-at="2023-05-14T16:38:33Z" duration-ms="1775" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TestSteps()[pri:0, instance:smarttech.nyc.testNGChallenges.CrossBrowserTesting@6d167f58]" started-at="2023-05-14T16:38:33Z" name="TestSteps" finished-at="2023-05-14T16:38:35Z" duration-ms="1427" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestSteps -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:smarttech.nyc.testNGChallenges.CrossBrowserTesting@6d167f58]" started-at="2023-05-14T16:38:35Z" name="tearDown" finished-at="2023-05-14T16:38:35Z" duration-ms="210" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- smarttech.nyc.testNGChallenges.CrossBrowserTesting -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2023-05-14T16:38:35Z" name="EdgeTest" finished-at="2023-05-14T16:38:38Z" duration-ms="2929">
+      <class name="smarttech.nyc.testNGChallenges.CrossBrowserTesting">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:smarttech.nyc.testNGChallenges.CrossBrowserTesting@26ceffa8]" started-at="2023-05-14T16:38:35Z" name="setUp" finished-at="2023-05-14T16:38:36Z" duration-ms="1038" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TestSteps()[pri:0, instance:smarttech.nyc.testNGChallenges.CrossBrowserTesting@26ceffa8]" started-at="2023-05-14T16:38:36Z" name="TestSteps" finished-at="2023-05-14T16:38:38Z" duration-ms="1549" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestSteps -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:smarttech.nyc.testNGChallenges.CrossBrowserTesting@26ceffa8]" started-at="2023-05-14T16:38:38Z" name="tearDown" finished-at="2023-05-14T16:38:38Z" duration-ms="336" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- smarttech.nyc.testNGChallenges.CrossBrowserTesting -->
+    </test> <!-- EdgeTest -->
+    <test started-at="2023-05-14T16:38:38Z" name="FirefoxTest" finished-at="2023-05-14T16:38:44Z" duration-ms="6021">
+      <class name="smarttech.nyc.testNGChallenges.CrossBrowserTesting">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:smarttech.nyc.testNGChallenges.CrossBrowserTesting@7a55af6b]" started-at="2023-05-14T16:38:38Z" name="setUp" finished-at="2023-05-14T16:38:41Z" duration-ms="3007" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TestSteps()[pri:0, instance:smarttech.nyc.testNGChallenges.CrossBrowserTesting@7a55af6b]" started-at="2023-05-14T16:38:41Z" name="TestSteps" finished-at="2023-05-14T16:38:43Z" duration-ms="1806" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestSteps -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:smarttech.nyc.testNGChallenges.CrossBrowserTesting@7a55af6b]" started-at="2023-05-14T16:38:43Z" name="tearDown" finished-at="2023-05-14T16:38:44Z" duration-ms="1205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- smarttech.nyc.testNGChallenges.CrossBrowserTesting -->
+    </test> <!-- FirefoxTest -->
+  </suite> <!-- Suite -->
+</testng-results>
